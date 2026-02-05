@@ -78,6 +78,7 @@ mC = [.5 for x in 1:H]
 out = differentialEvolution(deepcopy(agents), G_criterion, maxItersPSO = 1000, convergeIters = 1000, mF = mF, mC = mC, p = .11, H = H, bounds = bounds)
 end
 
+
 #45 seconds OG
 #37 seconds with multithread
 # print(out[1])
